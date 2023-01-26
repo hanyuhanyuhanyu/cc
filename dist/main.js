@@ -1,1 +1,1 @@
-console.log("hello cookies!")
+(()=>{"use strict";function o(){Game.ClickCookie()}o.onLoad=function(){console.log("auto click loaded")};const e={autoClick:{fn:o}};var n;n={autoClick:{perSec:100}},Object.entries(e).forEach((([o,e])=>function(o,e){let n=e?.perSec;Number.isSafeInteger(n)||(n=30),setInterval(o,1e3/n),"function"==typeof o.onLoad&&o.onLoad()}(e.fn,n[o])))})();
